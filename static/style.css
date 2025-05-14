@@ -1,0 +1,42 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(52, 57, 57);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+.section {
+
+    background-color: rgb(60, 85, 112);
+    padding: 100px;
+    border-radius: 50px; 
+    box-shadow: 0 0 20px black ;
+    width: 90%;
+    max-width: 500px ;
+}
+
+
+form input{
+
+    width: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+button{
+
+padding: 10px;
+background-color: rgb(53, 19, 108);
+border-radius: 30px;
+margin-top: 20px;
+border: none;
+cursor: pointer;
+}
