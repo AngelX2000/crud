@@ -20,13 +20,15 @@
 
         </form>
             <table>
-                <tr>     <th>id usuario</th>   <th>nombre del usuario</th>   <th>correo del usuario</th>  <th> Accion </th>  </tr>
+                <tr>     <th>id usuario</th>   <th>nombre del usuario</th>   <th>correo del usuario</th>  <th>  Accion  </th>  </tr>
                 {%  for persona in usuarios  %}
                     <tr>
                         <td>{{persona.id}}</td>
                         <td>{{persona.nombre_usuario}}</td>
                         <td>{{persona.correo_usuario}}</td>
                         <td><button class="botonborrar"><a href="/?borrar={{persona.id}}">Eliminar</a></button></td>
+                        <td><button class="botoneditar"><a href="/?editar={{persona.id}}">Editar</a></button></td>
+
                     </tr>
 
 
